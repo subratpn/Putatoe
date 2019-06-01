@@ -13,7 +13,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.putatoe.app.R;
-import com.putatoe.app.activity.HomeActivity;
 import com.putatoe.app.activity.ProductActivity;
 import com.putatoe.app.pojo.Service;
 import com.squareup.picasso.Picasso;

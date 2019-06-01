@@ -7,9 +7,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import com.putatoe.app.C0869R;
+
+import com.putatoe.app.R;
 import com.putatoe.app.adapter.OfferAdapter;
 import com.putatoe.app.pojo.Offer;
+
 import java.util.ArrayList;
 
 public class OfferFragment extends Fragment {
