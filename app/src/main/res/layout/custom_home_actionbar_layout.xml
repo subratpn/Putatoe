@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/location_loader"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:padding="1dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#607D8B"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/actionbar_location_view"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_placeholder"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

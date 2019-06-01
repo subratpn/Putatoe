@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LocationActivity"
+    android:id="@+id/location_root_layout"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/address_loader"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:padding="1dp"
+        android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/create_address_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add New Address"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@color/colorLightAccent"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:onClick="createAddress"
+            android:gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/address_root_layout">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Address"
+                        android:layout_margin="2dp"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+                    <EditText
+                        android:id="@+id/address_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPostalAddress"
+                        android:layout_margin="8dp"
+                        android:hint="Address Line 1"/>
+
+                    <EditText
+                        android:id="@+id/address_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPostalAddress"
+                        android:layout_margin="8dp"
+                        android:hint="Address Line 2"/>
+
+                    <Button
+                        android:id="@+id/address_save_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Save"
+                        android:background="@drawable/custom_accent_button"
+                        android:textColor="@color/colorAccent"
+                        android:layout_margin="8dp"
+                        android:onClick="saveAddress"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

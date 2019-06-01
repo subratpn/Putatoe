@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/booking_time_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:text="2PM - 5PM"
+        android:background="@drawable/custom_accent_button"
+        android:textColor="@color/colorYellow"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

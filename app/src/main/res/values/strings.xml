@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">Putatoe</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_signout">Sign Out</string>
+    <string name="menu_contact">Contact Us</string>
+
+
+    <string name="domain_name">https://putatoe.herokuapp.com/</string>
+    <string name="test_domain_name">http://127.0.0.1:8080/</string>
+    <string name="login_url">login</string>
+    <string name="registration_url">register</string>
+    <string name="cities_url">api/v1/cities</string>
+    <string name="service_city_url">api/v1/service/city/</string>
+    <string name="product_service_url">api/v1/product/service/</string>
+    <string name="paytm_checksum_url">api/v1/paytm/checksum/</string>
+    <string name="user_details_by_mobile">api/v1/user/mobile/</string>
+    <string name="create_booking">api/v1/create/booking</string>
+    <string name="send_email">api/v1/sendEmail</string>
+
+    <string name="title_activity_basic_home">BasicHomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_offer">Offer</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_wallet">Wallet</string>
+
+    <string name="Rs">\u20B9</string>
+    <string name="location_null_message">Location Service is Unavailable.We will restart the app now.</string>
+    <string name="order_placed">Order Placed Successfully</string>
+    <string name="referral_message">Share the above code with your friends and once they register with the code,you will earn Rs.50</string>
+    <string name="referral_share_message">Greetings From Putatoe.Find all the Household Services in one app.Earn Rs.50 with the Referral Code : 16AFB2A1AC2.Reach us at https://putatoe.com</string>
+
+</resources>

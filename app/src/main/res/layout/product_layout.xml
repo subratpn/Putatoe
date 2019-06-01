@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/layout_border"
+    android:layout_margin="5dp">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/product_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Book For An Hour"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_weight="4"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/product_quantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="1kg"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"
+                        android:layout_weight="6"/>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#E0E0E0"
+                    android:layout_margin="2dp"></View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="5dp">
+
+
+                    <TextView
+                            android:id="@+id/product_rate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Rs.599"
+                            android:textSize="12sp"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:layout_weight="7"
+                            android:textStyle="bold"/>
+
+                    <Button
+                            android:id="@+id/product_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="BOOK"
+                            android:background="@drawable/custom_accent_button"
+                            android:textColor="@color/colorAccent"
+                            android:layout_weight="3"
+                            android:visibility="gone"/>
+
+
+                    <TextView
+                            android:id="@+id/product_minus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_margin="7dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/custom_accent_button"
+                            android:gravity="center"
+                            android:padding="2dp"
+                            android:text="-"
+                            android:textColor="@color/colorAccent"
+                            android:visibility="visible" />
+
+                    <TextView
+                            android:id="@+id/product_buy_quantity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="0"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:textColor="@color/black"
+                            android:visibility="visible"/>
+
+                    <TextView
+                            android:id="@+id/product_plus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="+"
+                            android:textColor="@color/colorAccent"
+                            android:padding="2dp"
+                            android:gravity="center"
+                            android:layout_margin="7dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/custom_accent_button"
+                            android:visibility="visible"  />
+
+                </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.putatoe.app">
+
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.READ_SMS" />
+  <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+  <application
+      android:allowBackup="true"
+      android:icon="@drawable/putatoe"
+      android:label="@string/app_name"
+      android:roundIcon="@drawable/putatoe"
+      android:supportsRtl="true"
+      android:testOnly="false"
+      android:theme="@style/AppTheme">
+    <activity android:name=".activity.SplashActivity"
+        android:theme="@style/AppTheme.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".activity.MobileRegisterActivity" />
+    <activity android:name=".activity.CartActivity" />
+    <activity android:name=".activity.ProductActivity" />
+    <activity android:name=".activity.PaymentActivity" />
+    <activity android:name=".activity.MobileLoginActivity"/>
+    <activity
+        android:name=".activity.HomeActivity"
+        android:theme="@style/AppTheme.NoActionBar" />
+    <activity
+        android:name=".activity.BasicHomeActivity"
+        android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name=".activity.LocationActivity" />
+  </application>
+
+</manifest>
